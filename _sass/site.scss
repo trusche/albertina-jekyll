@@ -44,6 +44,9 @@ h1, h2, h3 {
 .overlay {
   height: 100%;
   background-color: rgba(0,0,0,0.5);
+  &.dark {
+    background-color: rgba(0,0,0,0.8);
+  }
 }
 
 
@@ -83,6 +86,19 @@ section.haus {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+section.friends {
+  background: url('/assets/images/karte.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  a {
+    color: #e6f6a4;
+    font-size: 1.2em;
+  }
 }
 
 section.social {

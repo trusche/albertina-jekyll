@@ -31,14 +31,14 @@
               </div>
             </div>
             <div class="ml-sm-5">
-              <h2>Lorem Ipsum Dolor</h2>
+              <h2>{{ page.intro.heading }}</h2>
 
               <div class="row">
                 <div class="col-md-6 col-lg-4 text-left mb-4">
-              lorem ipsum dolor sit amet, consectetur adipiscing elit. nullam ac orci nec nulla tristique dictum. cras at nibh sed tellus venenatis fermentum. proin mattis ultrices imperdiet. morbi vitae auctor urna. curabitur ultrices velit dui, eu iaculis ligula volutpat vitae. nulla sagittis molestie posuere. 
+                  {{ page.intro.p1 }}
                 </div>
                 <div class="col-md-6 col-lg-4 text-left">
-              nulla sagittis molestie posuere. donec pulvinar, justo eget rutrum interdum, lorem risus pretium arcu, eget iaculis lorem est in neque. sed eu convallis leo. ut efficitur, lectus eu laoreet sagittis, velit tellus ornare nulla, dapibus accumsan magna orci eu eros. etiam ullamcorper cursus rutrum.
+                  {{ page.intro.p2 }}
                 </div>
               </div>
             </div>
@@ -49,21 +49,61 @@
 
     <section class="haus">
       <div class="overlay">
-        <div class="container light text-center fade-in-section fade-left">
-          <h2>Lorem Ipsum Dolor</h2>
+        <div class="container light text-center fade-in-section ">
+          <h2>{{ page.haus.heading }}</h2>
 
           <div class="row">
             <div class="col-md-6 col-lg-4 offset-lg-2 text-left mb-4">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac orci nec nulla tristique dictum. Cras at nibh sed tellus venenatis fermentum. Proin mattis ultrices imperdiet. Morbi vitae auctor urna. Curabitur ultrices velit dui, eu iaculis ligula volutpat vitae. Nulla sagittis molestie posuere. 
+              {{ page.intro.p1 }}
             </div>
             <div class="col-md-6 col-lg-4 text-left">
-          Nulla sagittis molestie posuere. Donec pulvinar, justo eget rutrum interdum, lorem risus pretium arcu, eget iaculis lorem est in neque. Sed eu convallis leo. Ut efficitur, lectus eu laoreet sagittis, velit tellus ornare nulla, dapibus accumsan magna orci eu eros. Etiam ullamcorper cursus rutrum.
+              {{ page.intro.p1 }}
             </div>
           </div>
 
         </div>
       </div>
     </section>
+
+    <section class="program">
+      <div class="container text-center fade-in-section">
+        <h2>{{ page.program.heading }}</h2>
+
+        <div class="row">
+          <div class="col-md-6 col-lg-4 mb-4 mx-auto">
+            <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. nullam ac orci nec nulla tristique dictum. cras at nibh sed tellus venenatis fermentum. proin mattis ultrices imperdiet. morbi vitae auctor urna. curabitur ultrices velit dui, eu iaculis ligula volutpat vitae. nulla sagittis molestie posuere. </p>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+
+    <section class="friends">
+      <div class="overlay dark">
+      <div class="container fade-in-section d-flex align-items-center light">
+        <h2>{{ page.friends.heading }}</h2>
+
+        <div class="row">
+          <div class="col-md-6 col-lg-4 offset-lg-2 mb-4 text-left">
+            <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. nullam ac orci nec nulla tristique dictum. cras at nibh sed tellus venenatis fermentum. proin mattis ultrices imperdiet. morbi vitae auctor urna. curabitur ultrices velit dui, eu iaculis ligula volutpat vitae. nulla sagittis molestie posuere. </p>
+          </div>
+
+          <div class="col-md-6 col-lg-5 mb-4 text-left">
+            <ul>
+            {% for link in page.friends.links %}
+            <li><a href="{{ link.href }}">{{ link.text }}</a></li>
+            {% endfor %}
+            </ul>
+          </div>
+
+        </div>
+
+      </div>
+      </div>
+    </section>
+
 
     <section class="social">
       <div class="container text-center fade-in-section">
