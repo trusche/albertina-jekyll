@@ -53,7 +53,7 @@ exclude:
 sass:
   load_paths:
     - _sass
-    - node_modules
+    - _sass/bootstrap
 
 svg:
   optimize: true
