@@ -6,8 +6,8 @@ layout: landing
 hero:
   title: Studieren in Hamburg mit Stil und Tradition
   subtitle: Corps Albertina, die Hamburger Studentenverbindung
-  program: Programm
-  instagram: Instagram
+  cta1: Programm
+  cta2: Kontakt
 intro:
   heading: Intro Albertina
   p1: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac orci nec nulla tristique dictum. Cras at nibh sed tellus venenatis fermentum. Proin mattis ultrices imperdiet. Morbi vitae auctor urna. Curabitur ultrices velit dui, eu iaculis ligula volutpat vitae. Nulla sagittis molestie posuere. 
@@ -18,6 +18,10 @@ haus:
   p2: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac orci nec nulla tristique dictum. Cras at nibh sed tellus venenatis fermentum. Proin mattis ultrices imperdiet. Morbi vitae auctor urna. Curabitur ultrices velit dui, eu iaculis ligula volutpat vitae. Nulla sagittis molestie posuere. 
 friends:
   heading: Unsere Befreundeten
+  p1: |-
+    Wir gehören dem Dachverband der Kösener Corps (KSCV) an, die in Deutschland, Österreich, Belgien, Ungarn und der Schweiz ansässig sind.
+
+    Als grünes Corps pflegen wir besonders freundschaftliche Beziehungen zu:
   links:
     - href: https://borussiabreslau.de/
       text: Borussia Breslau zu Köln und Aachen

@@ -4,6 +4,10 @@ $border-radius-lg: 0;
 
 @import "bootstrap/bootstrap";
 
+html {
+  scroll-behavior: smooth;
+}
+
 h1, h2, h3 {
   font-family: "Fira Sans";
   font-weight: 800;
@@ -101,7 +105,7 @@ section.friends {
   }
 }
 
-section.social {
+section.contact {
   background-color: #f6f4f3;
   .icon {
     width: 40px;
@@ -127,4 +131,14 @@ section.social {
   opacity: 1;
   transform: none;
   visibility: visible;
+}
+
+table.program {
+  @extend .table;
+  .date, .time {
+    white-space: nowrap;
+  }
+  th, td {
+    text-align: left;
+  }
 }

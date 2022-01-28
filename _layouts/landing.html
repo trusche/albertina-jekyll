@@ -13,8 +13,8 @@
               <h1>{{ page.hero.title }}</h1>
               <h2>{{ page.hero.subtitle }}</h2>
               <div>
-                <a href="/" class="btn btn-danger btn-lg mr-2">{{ page.hero.program }}</a>
-                <a href="/" class="btn btn-danger btn-lg">{{ page.hero.instagram }}</a>
+                <a href="#program" class="btn btn-danger btn-lg mr-2">{{ page.hero.cta1 }}</a>
+                <a href="#contact" class="btn btn-danger btn-lg">{{ page.hero.cta2 }}</a>
               </div>
             </div>
           </div>
@@ -65,13 +65,14 @@
       </div>
     </section>
 
-    <section class="program">
+    <section class="program" id="program">
       <div class="container text-center fade-in-section">
         <h2>{{ page.program.heading }}</h2>
 
+
         <div class="row">
-          <div class="col-md-6 col-lg-4 mb-4 mx-auto">
-            <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. nullam ac orci nec nulla tristique dictum. cras at nibh sed tellus venenatis fermentum. proin mattis ultrices imperdiet. morbi vitae auctor urna. curabitur ultrices velit dui, eu iaculis ligula volutpat vitae. nulla sagittis molestie posuere. </p>
+          <div class="col-md-8 col-lg-8 mb-4 mx-auto">
+            <table class="program" id="termine"></table>
           </div>
 
         </div>
@@ -87,7 +88,7 @@
 
         <div class="row">
           <div class="col-md-6 col-lg-4 offset-lg-2 mb-4 text-left">
-            <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. nullam ac orci nec nulla tristique dictum. cras at nibh sed tellus venenatis fermentum. proin mattis ultrices imperdiet. morbi vitae auctor urna. curabitur ultrices velit dui, eu iaculis ligula volutpat vitae. nulla sagittis molestie posuere. </p>
+            <p class="mb-4">{{ page.friends.p1 | markdownify }}</p>
           </div>
 
           <div class="col-md-6 col-lg-5 mb-4 text-left">
@@ -105,7 +106,7 @@
     </section>
 
 
-    <section class="social">
+    <section class="contact" id="contact">
       <div class="container text-center fade-in-section">
         <h2>Lorem Ipsum Dolor</h2>
 

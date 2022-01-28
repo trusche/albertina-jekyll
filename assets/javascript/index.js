@@ -53,7 +53,6 @@ function httpGet(url) {
         });
 }
 
-/*
 httpGet('https://corpsweb.de/albertina/program.json')
 .then(
     function (events) {
@@ -72,4 +71,3 @@ httpGet('https://corpsweb.de/albertina/program.json')
     function (reason) {
         console.error('Something went wrong', reason);
     });
-    */
