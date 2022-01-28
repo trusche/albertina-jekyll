@@ -1,0 +1,26 @@
+h1, h2, h3 {
+  font-family: "Fira Sans";
+  font-weight: 800;
+}
+.page-content {
+  padding: 0;
+}
+
+.hero {
+  background: transparent url('/assets/images/background.png') center center;
+  background-size: cover;
+  color: white;
+  height: 100vh;
+  
+  .overlay {
+    height: 100vh;
+    background-color: rgba(0,0,0,0.5);
+  }
+
+  .wrapper {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
