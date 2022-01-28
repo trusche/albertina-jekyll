@@ -50,6 +50,12 @@ h1, h2, h3 {
 section {
   min-height: 400px;
 
+    @include media-breakpoint-down(sm) {
+  h2, h3, h4 {
+      text-align: center;
+    }
+  }
+
   h2 {
     font-size: 3em;
     margin-bottom: 1em;
@@ -77,6 +83,14 @@ section.haus {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+section.social {
+  background-color: #f6f4f3;
+  .icon {
+    width: 40px;
+    height: 40px;
+  }
 }
 
 .light {
