@@ -5,4 +5,7 @@
 layout: landing
 hero:
   title: Studieren in Hamburg mit Stil und Tradition
+  subtitle: Corps Albertina, die Hamburger Studentenverbindung
+  program: Programm
+  instagram: Instagram
 ---

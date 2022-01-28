@@ -5,17 +5,70 @@
 
   <body>
 
-    <main class="page-content" aria-label="Content">
-      <div class="hero">
-        <div class="overlay">
-          <div class="wrapper">
-            <h1>{{ page.hero.title }}</h2>
+    <div class="hero">
+      <div class="overlay">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 col-lg-6 glideInRight">
+              <h1>{{ page.hero.title }}</h1>
+              <h2>{{ page.hero.subtitle }}</h2>
+              <div>
+                <a href="/" class="btn btn-danger btn-lg mr-2">{{ page.hero.program }}</a>
+                <a href="/" class="btn btn-danger btn-lg">
+                  {% svg "/assets/images/svg/instagram.svg" width="24" fill="white" %}
+                  {{ page.hero.instagram }}</a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-    </main>
+    </div>
 
-    {%- include footer.html -%}
+    <section class="intro">
+        <div class="container fade-in-section">
+          <div class="d-flex">
+            <div>
+              <img src="/assets/images/wappen.jpeg" class="wappen" />
+            </div>
+            <div class="ml-5">
+              <h2>Studieren in Hamburg</h2>
+
+              <div class="row">
+                <div class="col-md-6 col-lg-4 text-left">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac orci nec nulla tristique dictum. Cras at nibh sed tellus venenatis fermentum. Proin mattis ultrices imperdiet. Morbi vitae auctor urna. Curabitur ultrices velit dui, eu iaculis ligula volutpat vitae. Nulla sagittis molestie posuere. 
+                </div>
+                <div class="col-md-6 col-lg-4 text-left">
+              Nulla sagittis molestie posuere. Donec pulvinar, justo eget rutrum interdum, lorem risus pretium arcu, eget iaculis lorem est in neque. Sed eu convallis leo. Ut efficitur, lectus eu laoreet sagittis, velit tellus ornare nulla, dapibus accumsan magna orci eu eros. Etiam ullamcorper cursus rutrum.
+                </div>
+              </div>
+            </div>
+
+          </p>
+        </div>
+    </section>
+
+
+    <section class="haus">
+      <div class="overlay">
+        <div class="container light text-center fade-in-section fade-left">
+          <h2>Wohnen an der Alster</h2>
+
+          <div class="row">
+            <div class="col-md-6 col-lg-4 offset-lg-2 text-left">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac orci nec nulla tristique dictum. Cras at nibh sed tellus venenatis fermentum. Proin mattis ultrices imperdiet. Morbi vitae auctor urna. Curabitur ultrices velit dui, eu iaculis ligula volutpat vitae. Nulla sagittis molestie posuere. 
+            </div>
+            <div class="col-md-6 col-lg-4 text-left">
+          Nulla sagittis molestie posuere. Donec pulvinar, justo eget rutrum interdum, lorem risus pretium arcu, eget iaculis lorem est in neque. Sed eu convallis leo. Ut efficitur, lectus eu laoreet sagittis, velit tellus ornare nulla, dapibus accumsan magna orci eu eros. Etiam ullamcorper cursus rutrum.
+            </div>
+
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="">
+    </section>
+
 
   </body>
 
