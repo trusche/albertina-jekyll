@@ -3,21 +3,37 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: landing
+nav:
+  corps: Das Corps
+  haus: Corpshaus
+  segeln: Segeln
+  friends: Befreundete
+  contact: Kontakt
 hero:
   title: Corps Albertina
-  subtitle: In Trinitate Robur
-  cta1: Programm
-  cta2: Kontakt
+  #subtitle: In Trinitate Robur
 intro:
   heading: Intro Albertina
-  p1: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac orci nec nulla tristique dictum. Cras at nibh sed tellus venenatis fermentum. Proin mattis ultrices imperdiet. Morbi vitae auctor urna. Curabitur ultrices velit dui, eu iaculis ligula volutpat vitae. Nulla sagittis molestie posuere. 
-  p2: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac orci nec nulla tristique dictum. Cras at nibh sed tellus venenatis fermentum. Proin mattis ultrices imperdiet. Morbi vitae auctor urna. Curabitur ultrices velit dui, eu iaculis ligula volutpat vitae. Nulla sagittis molestie posuere. 
+  text: |-
+    Wir sind ein grünes Corps im Kösener Senioren-Convents-Verband (KSCV). Unsere Mitglieder sind heutige und ehemalige engagierte Studenten der Hamburger Universitäten und Hochschulen. 
+
+    Interdisziplinär sind wir an den juristischen, technischen, wirtschaftlichen und medizinischen Fakultäten der Universität Hamburg, der Bucerius Law School, der Helmut-Schmidt Universität und weiteren renommierten Hochschulen in Hamburg vertreten. 
+
+    Wir verstehen uns als lebenslanger Freundschaftsbund und leben von dem Austausch zwischen Jung und Alt.
+
+    [Weiterlesen...](https://marjorie-wiki.de/wiki/Corps_Albertina_Hamburg)
 haus:
   heading: Unser Corpshaus
   p1: In bester Lage zwischen Aussenalster und Universität.
   p2: |-
     Magdalenenstrasse 37  
     20148 Hamburg
+segeln:
+  heading: Segeln bei Albertina
+  text: |-
+    Als Hamburger Corps leben wir unsere Leidenschaft zum Segeln und führen unsere Jolle "Albertina II" bei jeder Gelegenheit auf der Alster aus. 
+
+    Ihr Heimathafen ist der Bootssteg Bobby Reich. Darüber hinaus zieht es uns regelmäßig in großer Mannschaft auf die offenen Meere der Nord- und Ostsee.
 friends:
   heading: Unsere Befreundeten
   p1: |-
