@@ -20,7 +20,6 @@ ready(function() {
   observer = new IntersectionObserver(entries => {
     entries.forEach(entry => {
       if (entry.intersectionRatio > 0.5) {
-        console.log("showing...");
         entry.target.classList.add("is-visible");
       }
     })

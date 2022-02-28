@@ -8,6 +8,7 @@ $font-size-base: 1.3rem;
 
 html {
   scroll-behavior: smooth;
+  overflow-x: clip;
 }
 
 h1, h2, h3 {
@@ -76,6 +77,7 @@ h1, h2, h3 {
 
 
 section {
+  overflow-x: clip;
   min-height: 400px;
 
     @include media-breakpoint-down(sm) {
@@ -147,7 +149,6 @@ section.friends {
 
   a {
     color: #e6f6a4;
-    font-size: 1.2em;
   }
 }
 
@@ -163,7 +164,12 @@ section.contact {
   color: white;
 }
 
-.fade-in-section-disabled {
+section, .overlay {
+  overflow-x: hidden;
+}
+
+.fade-in-section {
+  overflow-x: clip;
   opacity: 0;
   transform: translateX(20vh);
   visibility: hidden;
