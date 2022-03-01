@@ -13,13 +13,14 @@ ready(function() {
   const sections = document.querySelectorAll('.fade-in-section');
 
   const config = {
-    rootMargin: '50px 20px 75px 30px',
-    threshold: [0.5]
+    rootMargin: '20px 20px 20px 20px',
+    threshold: [0.2]
   };
 
   observer = new IntersectionObserver(entries => {
     entries.forEach(entry => {
-      if (entry.intersectionRatio > 0.3) {
+      if (entry.intersectionRatio > 0.2) {
+        console.log("visible!");
         entry.target.classList.add("is-visible");
       }
     })
