@@ -81,9 +81,6 @@ section {
 }
 
 section.intro {
-  p:first-child {
-    font-size: 1.2em;
-  }
   img.wappen {
     max-width: 250px;
   }
@@ -97,7 +94,7 @@ section.haus {
   background-size: cover;
 
   .address {
-    font-size: 2em;
+    font-size: 1.5em;
   }
 }
 
