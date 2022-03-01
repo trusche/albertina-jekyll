@@ -8,7 +8,6 @@ $font-size-base: 1.3rem;
 
 html {
   scroll-behavior: smooth;
-  overflow-x: clip;
 }
 
 h1, h2, h3 {
@@ -77,10 +76,9 @@ h1, h2, h3 {
 
 
 section {
-  overflow-x: clip;
   min-height: 400px;
 
-    @include media-breakpoint-down(sm) {
+  @include media-breakpoint-down(sm) {
   h2, h3, h4 {
       text-align: center;
     }
@@ -91,8 +89,12 @@ section {
   }
 
   .container {
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    @include media-breakpoint-up(md) {
+      padding-top: 100px;
+      padding-bottom: 100px;
+    }
     height: 100%;
   }
 }
@@ -169,7 +171,6 @@ section, .overlay {
 }
 
 .fade-in-section {
-  overflow-x: clip;
   opacity: 0;
   transform: translateX(20vh);
   visibility: hidden;
