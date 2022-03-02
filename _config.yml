@@ -26,12 +26,10 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 google_analytic: UA-51313522-1
-image: assets/images/social-preview.webp
+og_image: /assets/images/social-preview.webp
 
 # Build settings
 theme: minima
-plugins:
-  - jekyll-feed
 
 # Exclude from processing.
 # The following items will not be processed, by default.

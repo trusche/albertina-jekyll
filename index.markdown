@@ -3,6 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: landing
+image: /assets/images/social-preview.webp
 nav:
   corps: Das Corps
   haus: Corpshaus
