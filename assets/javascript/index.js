@@ -1,5 +1,3 @@
-console.log("foo");
-
 
 function ready(fn) {
   if (document.readyState != 'loading') {
@@ -20,7 +18,6 @@ ready(function() {
   observer = new IntersectionObserver(entries => {
     entries.forEach(entry => {
       if (entry.intersectionRatio > 0.2) {
-        console.log("visible!");
         entry.target.classList.add("is-visible");
       }
     })
