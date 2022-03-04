@@ -10,6 +10,10 @@ html {
   scroll-behavior: smooth;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 h1, h2, h3 {
   font-family: "Fira Sans";
   font-weight: 800;
