@@ -63,7 +63,11 @@ httpGet('https://corpsweb.de/albertina/program.json')
               <td class='time'>${event['time'] || ''}</td>
             </tr>`
         });
-        el.innerHTML = rowsHtml;
+        if (rowsHtml.length > 0) {
+          el.innerHTML = rowsHtml;
+        } else {
+          el.innerHTML = "<tr><td colspan='3' class='text-center'>Kommt bald...</td></tr>"
+        }
     },
     function (reason) {
         console.error('Something went wrong', reason);
